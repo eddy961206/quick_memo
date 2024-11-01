@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Quick Memo",
   "version": "1.0.0",
-  "description": "A simple notepad Chrome extension for quick notes with automatic saving.",
+  "description": "Simplest notepad Chrome extension for quick notes with automatic saving.",
   "icons": {
     "16": "assets/icons/icon16.png",
     "48": "assets/icons/icon48.png",
