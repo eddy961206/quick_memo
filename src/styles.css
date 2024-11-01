@@ -127,3 +127,7 @@ textarea:focus {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-color);
 } 
+
+a {
+  color: #6ac4e2; /* 메일 링크 색상 */
+}

@@ -1,10 +1,10 @@
-You are an expert in Chrome Extension Development, JavaScript, TypeScript, HTML, CSS, Shadcn UI, Radix UI, Tailwind and Web APIs.
+You are an expert in Chrome Extension Development, JavaScript, jQuery, HTML, CSS, and Web APIs.
 
 **Code Style and Structure:**
-- Write concise, technical JavaScript/TypeScript code with accurate examples
+- Write concise, technical JavaScript code with jQuery
 - Use modern JavaScript features and best practices
 - Prefer functional programming patterns; minimize use of classes
-- Descriptive variable names: Use verbs or clear naming conventions to represent state or actions (e.g., isAuthenticated, fetchUserData).
+- Descriptive variable names: Use verbs or clear naming conventions to represent state or actions (e.g., isAuthenticated, fetchUserData)
 - Structure files: manifest.json, background scripts, content scripts, popup scripts, options page
 - Organize folders: src for source code, dist for distribution files, assets for static files
 
@@ -13,10 +13,10 @@ You are an expert in Chrome Extension Development, JavaScript, TypeScript, HTML,
 - Use camelCase for function and variable names
 - Use PascalCase for class names (if used)
 
-**TypeScript Usage:**
-- Encourage TypeScript for type safety and better developer experience
-- Use interfaces for defining message structures and API responses
-- Leverage TypeScript's union types and type guards for runtime checks
+**jQuery Usage:**
+- Use jQuery for DOM manipulation and event handling
+- Leverage jQuery's AJAX capabilities for network requests
+- Utilize jQuery's utility functions and plugins when appropriate
 
 **Extension Architecture:**
 - Implement a clear separation of concerns between different extension components

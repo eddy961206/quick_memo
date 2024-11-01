@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
-  <title>Quick Memo</title>
+  <title>Simplist Memo Of All Time - SMOAT</title>
   <link rel="stylesheet" href="src/styles.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="thirdParty/jquery-3.6.0.min.js"></script>
   <script src="src/popup.js"></script>
 </head>
+
 <body>
   <div class="popup-container">
     <div class="header">
-      <h1>Quick Memo</h1>
+      <h1>SMOAT Memo</h1>
       <button id="theme-toggle" class="theme-toggle">
         <span class="material-icons">dark_mode</span>
       </button>
     </div>
     <div class="memo-wrapper">
-      <textarea id="memo" placeholder="여기에 메모를 입력하세요..."></textarea>
+      <textarea id="memo" placeholder="Enter your memo here..." rows="10" cols="30"></textarea>
       <div class="actions">
         <button class="action-button">
           <span class="material-icons">save</span>
@@ -27,6 +29,13 @@
         </button>
       </div>
     </div>
+    <div id="contact-info" style="font-size: small; text-align: center; margin-top: 20px;"></div>
+    <p>
+      <span id="contactMessage">* If you have any suggestions or issues, please contact:</span>
+      <a href="mailto:skykum2004@gmail.com">skykum2004@gmail.com</a>
+    </p>
+  </div>
   </div>
 </body>
-</html> 
+
+</html>
